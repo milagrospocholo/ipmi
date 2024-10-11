@@ -1,6 +1,6 @@
 let imagenes = [];
 
-let nombredefilas =["data/img-0.jpg", "data/img-1.jpg", "data/img-2.jpg", " data/img-3.jpg", " data/img-4.jpg", " data/img-5.jpg", " data/img-6.jpg", " data/img-7.jpg", " data/img-8.jpg", " data/img-9.jpg", " data/img-10.jpg", " data/img-11.jpg"," data/img-12.jpg", " data/img-13.jpg", " data/img-14.jpg", " data/img-15.jpg", " data/img-16.jpg", " data/img-17.jpg"];
+let nombredefilas = ["data/img-0.jpg", "data/img-1.jpg", "data/img-2.jpg", " data/img-3.jpg", " data/img-4.jpg", " data/img-5.jpg", " data/img-6.jpg", " data/img-7.jpg", " data/img-8.jpg", " data/img-9.jpg", " data/img-10.jpg", " data/img-11.jpg"," data/img-12.jpg", " data/img-13.jpg", " data/img-14.jpg", " data/img-15.jpg", " data/img-16.jpg", " data/img-17.jpg", "data/img-18.jpg", "data/img-19.jpg","data/img-20.jpg", "data/img-21.jpg", "data/img-22.jpg", "data/img-23.jpg", "data/img-24.jpg","data/img-25.jpg",];
 
 let estado = 0;
 
@@ -150,12 +150,73 @@ if ( estado === 0) {
  
  
   } else if  ( estado === 17) {
-    circuloa(550, 350, 40); // botÃ³n A 1. posiciÃ³n de X (550) 2. PosiciÃ³n de Y (350) 3. TamaÃ±o del circulo (40) 
-    circulob(50, 350, 40);
+    circuloa(410, 410, 40); // botÃ³n A 1. posiciÃ³n de X (550) 2. PosiciÃ³n de Y (350) 3. TamaÃ±o del circulo (40) 
+    circulob(260, 410, 40);
      textSize(25);
     fill(4, 5, 90); 
     //rect(225, 75, 350, 100); //el tamaÃ±o y posiciÃ³n del rectangulo del texto
     text("texto 18", 300, 100); 
+    
+  } else if  ( estado === 18) { 
+     textSize(25);
+    fill(4, 5, 90); 
+    //rect(225, 75, 350, 100); //el tamaÃ±o y posiciÃ³n del rectangulo del texto
+    text("texto 17", 300, 100); 
+    
+    
+     } else if  ( estado === 19) { 
+     textSize(25);
+    fill(4, 5, 90); 
+    //rect(225, 75, 350, 100); //el tamaÃ±o y posiciÃ³n del rectangulo del texto
+    text("texto 17", 300, 100); 
+    
+    
+     } else if  ( estado === 20) { 
+     textSize(25);
+    fill(4, 5, 90); 
+    //rect(225, 75, 350, 100); //el tamaÃ±o y posiciÃ³n del rectangulo del texto
+    text("texto 17", 300, 100);  
+    
+    
+     } else if  ( estado === 21) { 
+     textSize(25);
+    fill(4, 5, 90); 
+    //rect(225, 75, 350, 100); //el tamaÃ±o y posiciÃ³n del rectangulo del texto
+    text("texto 17", 300, 100); 
+    
+    
+     } else if  ( estado === 22) { 
+     textSize(25);
+    fill(4, 5, 90); 
+    //rect(225, 75, 350, 100); //el tamaÃ±o y posiciÃ³n del rectangulo del texto
+    text("texto 17", 300, 100); 
+    
+    
+     } else if  ( estado === 23) { 
+     textSize(25);
+    fill(4, 5, 90); 
+    //rect(225, 75, 350, 100); //el tamaÃ±o y posiciÃ³n del rectangulo del texto
+    text("texto 17", 300, 100); 
+    
+    
+     } else if  ( estado === 24) { 
+     textSize(25);
+    fill(4, 5, 90); 
+    //rect(225, 75, 350, 100); //el tamaÃ±o y posiciÃ³n del rectangulo del texto
+    text("texto 17", 300, 100); 
+    
+    
+     } else if  ( estado === 25) { 
+    circuloa(410, 410, 40); // botÃ³n A 1. posiciÃ³n de X (550) 2. PosiciÃ³n de Y (350) 3. TamaÃ±o del circulo (40) 
+    circulob(260, 410, 40);
+    circuloc(90, 410, 40);
+     textSize(25);
+    fill(4, 5, 90); 
+    //rect(225, 75, 350, 100); //el tamaÃ±o y posiciÃ³n del rectangulo del texto
+    text("texto 17", 300, 100); 
+    
+    
+    
   }
 
 }
@@ -224,31 +285,84 @@ function mousePressed() {
     
     
     
-     } else if (estado == 15 && mouseEnCirculo(580, 420, 40)) {
-    estado = 16; //ultimo final y va a los creditos 
-    
-    
      } else if (estado == 12 && mouseEnCirculo(580, 420, 40)) {
-    estado = 13; //ultimo final y va a los creditos 
-    
+    estado = 13 ; //ultimo final y va a los creditos 
     
     
      } else if (estado == 13 && mouseEnCirculo(580, 420, 40)) {
     estado = 14; //ultimo final y va a los creditos 
     
     
-     } else if (estado == 14  && mouseEnCirculo(580, 420, 40)) {
-    estado = 17 //ultimo final y va a los creditos 
+    
+       } else if (estado == 14 && mouseEnCirculo(580, 420, 40)) {
+    estado = 17; //ultimo final y va a los creditos 
+    
+      } else if (estado == 15 && mouseEnCirculo(580, 420, 40)) {
+    estado = 16; //ultimo final y va a los creditos 
+    
+       } else if (estado == 16 && mouseEnCirculo(580, 420, 40)) {
+    estado = 17; //ultimo final y va a los creditos 
     
     
-     } else if (estado == 16 && mouseEnCirculo(580, 420, 40)) {
-    estado = 0; //ultimo final y va a los creditos 
+    
+        } else if (estado == 17 && mouseEnCirculo(410, 410, 40)) {
+    estado = 18 ; //ultimo final y va a los creditos 
+    
+    
+       } else if (estado == 17 && mouseEnCirculo( 260,410,40 )) {
+    estado = 19 ; //ultimo final y va a los creditos 
+    
+    
+      } else if (estado == 18 && mouseEnCirculo( 580, 420, 40)) {
+    estado = 21 ; //ultimo final y va a los creditos 
+     
+     
+       } else if (estado == 19 && mouseEnCirculo( 580, 420, 40)) {
+    estado = 20 ; //ultimo final y va a los creditos 
+    
+    
+     
+      
+       } else if (estado == 20 && mouseEnCirculo( 580, 420, 40)) {
+    estado = 25 ; //ultimo final y va a los creditos 
+    
+    
+      } else if (estado == 25 && mouseEnCirculo( 90, 410, 40)) {
+    estado = 22 ; //ultimo final y va a los creditos 
+    
+      } else if (estado == 25 && mouseEnCirculo( 410, 410, 40)) {
+    estado = 23 ; //ultimo final y va a los creditos 
+    
+    
+      } else if (estado == 25 && mouseEnCirculo( 580, 420, 40)) {
+    estado = 24 ; //ultimo final y va a los creditos 
+    
+    
+      } else if (estado == 22 && mouseEnCirculo( 580, 420, 40)) {
+    estado = 0 ; //ultimo final y va a los creditos 
+      
+      
+      } else if (estado == 23 && mouseEnCirculo( 580, 420, 40)) {
+    estado = 0 ; //ultimo final y va a los creditos 
+    
+    
+      } else if (estado == 24 && mouseEnCirculo( 580, 420, 40)) {
+    estado = 0 ; //ultimo final y va a los creditos 
     
     
     
-     } else if (estado == 17 && mouseEnCirculo(580, 420, 40)) {
-    estado = 0; //ultimo final y va a los creditos 
+     
+   
+  
     
+    
+    
+    
+    
+    
+    
+    
+
   }
   
 
@@ -278,3 +392,12 @@ function circulob(h, i, j) {
   fill(224, 0, 245); 
   circle(h, i, j);
 }
+
+
+function circuloc(h, i, j) {
+  stroke(255);
+  fill(224, 0, 245); 
+  circle(h, i, j);
+}
+ 
+ 
